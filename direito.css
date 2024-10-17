@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    font-family: "Yrsa", serif;
+    font-weight: 400; /* Altere o peso para o valor desejado (300, 400, 500, etc.) */
+    font-style: normal;
+}
+
+header h1 {
+    font-family: "Spectral SC", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+section h2 {
+    color: #2c3e50;
+    
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+}
+
+article h3 {
+    color: #34495e;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    display: block;
+    margin: 1em 0;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contato {
+    background-color: #f0f0f0;
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+
+#contato h2 {
+    color: #2c3e50;
+    margin-bottom: 1em;
+}
+
+#contato p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 1.5em;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contato label {
+    font-weight: bold;
+    font-size: 1em;
+    align-self: flex-start;
+}
+
+#contato input[type="text"],
+#contato input[type="email"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#contato button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#contato button:hover {
+    background-color: #34495e;
+}
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Direito</title>
+    <link rel="stylesheet" href="direito.css">
+    <link rel="icon" href="justica.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <h1>JurisBlog</h1>
+        <nav>
+            <ul>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Inscreva-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <h2>Últimas Notícias</h2>
+
+            <article>
+                <h3>Advocacia Criminal: Novas Tendências</h3>
+                <img src="criminal.jpg" alt="Advocacia Criminal">
+                <p>As novas tendências na advocacia criminal estão focadas em práticas mais humanas e personalizadas para garantir a defesa dos direitos dos cidadãos...</p>
+                <a href="noticia1.html" target="_blank">Leia mais</a>
+            </article>
+
+            <article>
+                <h3>Direito Tributário: Mudanças na Legislação</h3>
+                <img src="tributario.jpg" alt="Direito Tributário">
+                <p>A legislação tributária brasileira passa por constantes mudanças, e as empresas devem estar preparadas para se adaptar e evitar problemas fiscais...</p>
+                <a href="noticia2.html" target="_blank">Leia mais</a>
+            </article>
+
+            <article>
+                <h3>Direito Empresarial: Proteção Patrimonial</h3>
+                <img src="empresarial.jpg" alt="Direito Empresarial">
+                <p>Entenda como a proteção patrimonial é fundamental para garantir a sustentabilidade e continuidade dos negócios, especialmente em tempos de crise...</p>
+                <a href="noticia3.html" target="_blank">Leia mais</a>
+            </article>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre o Blog</h2>
+            <p>Este blog é dedicado a discutir temas relevantes sobre advocacia e direito em suas diversas áreas, como criminal, tributário, empresarial, e rural. Aqui você encontrará informações úteis e atualizações sobre o universo jurídico.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Inscreva-se</h2>
+            <p>Entre em contato conosco e se inscreva no nosso blog:</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </section>
+    </main>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <footer>
+        <p>&copy; 2024 Blog de Direito. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
